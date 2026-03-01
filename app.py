@@ -16,9 +16,9 @@ from langchain_core.output_parsers import StrOutputParser
 # =========================
 # CONFIG
 # =========================
-DAILY_TOKEN_LIMIT = 10000
-EMBEDDING_RESERVE = 6000   # reserve 60k for embeddings
-CHAT_RESERVE = 4000        # reserve 40k for chat
+DAILY_TOKEN_LIMIT = 100000
+EMBEDDING_RESERVE = 60000   # reserve 60k for embeddings
+CHAT_RESERVE = 40000        # reserve 40k for chat
 USAGE_FILE = "usage.json"
 
 
