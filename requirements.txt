@@ -7,3 +7,4 @@ streamlit
 pypdf
 python-dotenv
 tiktoken
+cryptography
